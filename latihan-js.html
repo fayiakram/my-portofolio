@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Latihan JS</title>
+</head>
+
+<body>
+    <div class="container-fluid pt-1">
+        <div class="row mb-1 mt-1">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Table Siswa <small class="text-muted">Ini merupkan contoh implementasi
+                                data Array</small></h5>
+                        <p class="card-text">ini merupakan table informasi daftar siswa</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- table -->
+        <div class="row">
+            <div class="col-md-12">
+                <table class="table table-bordered" id="table-siswa">
+                    <thead>
+                        <tr>
+                            <th>List Siswa</th>
+                            <th colspan="2">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" class="input-search-siswa"
+                                        aria-label="Sizing example input" placeholder="Pencarian Siswa"
+                                        aria-describedby="inputGroup-sizing-default">
+                                </div>
+                            </th>
+                        </tr>
+                        <tr>
+                            <th scope="col">Nama</th>
+                            <th scope="col">Umur</th>
+                            <th scope="col">Kelas</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- exercise 2 -->
+    <div class="container-fluid pt-1">
+        <div class="row mb-1 mt-1">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Pengelompokan Bilangan <small class="text-muted">kita punya 2 kelompok
+                                bilangan</small></h5>
+
+                        <ul class="card-text">
+                            <li>Untuk Bilangan Genap ada [2, 4, 6, 8, 10]</li>
+                            <li>Untuk Bilangan Ganjil ada [1, 3, 5, 7, 9]</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- table -->
+        <div class="row">
+            <div class="col-md-12">
+                <table class="table table-bordered" id="table-bilangan">
+                    <thead>
+                        <tr>
+                            <th>Papan Cek Bilangan</th>
+                            <th>
+                                <div class="input-group">
+                                    <input type="number" class="form-control" id="input-bilangan"
+                                        arial-label="Sizing example input" placeholder="input bilangan"
+                                        aria-describedby="inputGroup-sizing-default">
+                                </div>
+                            </th>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+<!-- Jquery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<script src="assets/js/latihan.js"></script>
+
+</html>
